@@ -1,8 +1,8 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
 const workspace = process.env.GITHUB_WORKSPACE;
-// const packageJson = require(`${github.workspace}/package`);
-// const packageLockJson = require(`${github.workspace}/package-lock`);
+const packageJson = require(`${workspace}/package`);
+const packageLockJson = require(`${workspace}/package-lock`);
 
 console.log(JSON.stringify(github));
 console.log('----------');
@@ -13,4 +13,7 @@ console.log('----------');
 console.log(workspace);
 console.log('----------');
 console.log(process.env);
-// console.log(packageJson);
+console.log('----------');
+console.log(packageJson);
+console.log('----------');
+console.log(process.env)
