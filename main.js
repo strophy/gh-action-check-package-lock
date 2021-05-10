@@ -1,4 +1,3 @@
-const core = require('@actions/core');
 const github = require('@actions/github');
 
 const packageJson = require('${{ github.workspace }}/package');
