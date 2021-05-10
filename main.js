@@ -11,4 +11,6 @@ console.log('----------');
 console.log(JSON.stringify(core));
 console.log('----------');
 console.log(workspace);
+console.log('----------');
+console.log(process.env);
 // console.log(packageJson);
