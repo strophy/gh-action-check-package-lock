@@ -1,4 +1,4 @@
-name: 'Check packages'
+name: 'Check package lock consistency'
 description: 'Check node package version and name for consistency'
 author: 'strophy'
 branding:
